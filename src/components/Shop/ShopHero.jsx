@@ -7,7 +7,7 @@ const ShopHero = () => {
     <div className="relative min-h-100 sm:min-h-120 flex justify-center overflow-hidden">
       {/* Background Image */}
       <img
-        src="/shop-hero-bg.jpg"
+        src="./shop-hero-bg.jpg"
         alt="Hero background"
         className="absolute inset-0 w-full h-full object-cover object-right sm:object-center"
       />

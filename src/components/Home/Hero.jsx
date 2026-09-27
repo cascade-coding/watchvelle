@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="relative min-h-125 flex justify-center overflow-hidden">
       {/* Background Image */}
       <img
-        src="/hero-bg.webp"
+        src="./hero-bg.webp"
         alt="Hero background"
         className="absolute inset-0 w-full h-full object-cover"
       />

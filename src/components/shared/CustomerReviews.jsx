@@ -23,7 +23,7 @@ const CustomerReviews = () => {
 
         {/* Review cards wrapper */}
 
-        <div className="custom-scrollbar scrollbar-hide-md pt-10 w-full flex gap-x-6 overflow-x-auto pb-4 snap-x snap-mandatory">
+        <div className="custom-scrollbar scrollbar-hide-md pt-10 w-full flex gap-x-6 overflow-x-auto pb-4  ">
           {/* Review cards */}
 
           {columns.map((column, colIndex) => (

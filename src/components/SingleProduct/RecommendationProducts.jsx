@@ -21,13 +21,13 @@ const RecommendationProducts = () => {
 
         {/* Product cards wrapper */}
 
-        <div className="no-scrollbar pt-5 sm:pt-8 w-full flex gap-x-6 overflow-x-auto pb-11 snap-x snap-mandatory">
+        <div className="no-scrollbar pt-5 sm:pt-8 w-full flex gap-x-6 overflow-x-auto pb-11  ">
           {/* Product cards */}
 
           {cards.map(({ id, ...product }) => (
             <ProductCard
               key={id}
-              className="min-w-[85%] min-[500px]:min-w-[45%] sm:min-w-[45%] md:min-w-[32%] lg:min-w-[23%] snap-start"
+              className="min-w-[85%] min-[500px]:min-w-[45%] sm:min-w-[45%] md:min-w-[32%] lg:min-w-[23%] "
               {...product}
             />
           ))}

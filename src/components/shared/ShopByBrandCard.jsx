@@ -11,7 +11,7 @@ const ShopByBrandCard = ({
 }) => {
   return (
     <Link
-      to={to}
+      to={`/watches?brand=${brand}`}
       className={cn(
         "relative block w-full max-w-80 overflow-hidden group",
         className,

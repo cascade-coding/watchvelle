@@ -9,8 +9,8 @@ export const DEMO_FEATURED_PRODUCT_CARDS = [
     title: "Speedmaster Chronograph Hand Wind Silver Dial Men's Watch",
     price: "$16,320.00",
     originalPrice: "$20,800.00",
-    primaryImage: "/images/product-speedmaster-1.png",
-    secondaryImage: "/images/product-speedmaster-2.png",
+    primaryImage: "./images/product-speedmaster-1.png",
+    secondaryImage: "./images/product-speedmaster-2.png",
   },
   {
     id: rand(),
@@ -20,8 +20,8 @@ export const DEMO_FEATURED_PRODUCT_CARDS = [
     title: "De Ville Prestige Automatic Chronometer Blue Dial Men's Watch",
     price: "$3,120.00",
     originalPrice: "$7,800.00",
-    primaryImage: "/images/product-ville-1.png",
-    secondaryImage: "/images/product-ville-2.png",
+    primaryImage: "./images/product-ville-1.png",
+    secondaryImage: "./images/product-ville-2.png",
   },
 
   {
@@ -32,8 +32,8 @@ export const DEMO_FEATURED_PRODUCT_CARDS = [
     title: "Speedmaster Chronograph Hand Wind Silver Dial Men's Watch",
     price: "$16,320.00",
     originalPrice: "$20,800.00",
-    primaryImage: "/images/product-speedmaster-1.png",
-    secondaryImage: "/images/product-speedmaster-2.png",
+    primaryImage: "./images/product-speedmaster-1.png",
+    secondaryImage: "./images/product-speedmaster-2.png",
   },
   {
     id: rand(),
@@ -43,8 +43,8 @@ export const DEMO_FEATURED_PRODUCT_CARDS = [
     title: "De Ville Prestige Automatic Chronometer Blue Dial Men's Watch",
     price: "$3,120.00",
     originalPrice: "$7,800.00",
-    primaryImage: "/images/product-ville-1.png",
-    secondaryImage: "/images/product-ville-2.png",
+    primaryImage: "./images/product-ville-1.png",
+    secondaryImage: "./images/product-ville-2.png",
   },
 
   {
@@ -55,8 +55,8 @@ export const DEMO_FEATURED_PRODUCT_CARDS = [
     title: "Speedmaster Chronograph Hand Wind Silver Dial Men's Watch",
     price: "$16,320.00",
     originalPrice: "$20,800.00",
-    primaryImage: "/images/product-speedmaster-1.png",
-    secondaryImage: "/images/product-speedmaster-2.png",
+    primaryImage: "./images/product-speedmaster-1.png",
+    secondaryImage: "./images/product-speedmaster-2.png",
   },
   {
     id: rand(),
@@ -66,8 +66,8 @@ export const DEMO_FEATURED_PRODUCT_CARDS = [
     title: "De Ville Prestige Automatic Chronometer Blue Dial Men's Watch",
     price: "$3,120.00",
     originalPrice: "$7,800.00",
-    primaryImage: "/images/product-ville-1.png",
-    secondaryImage: "/images/product-ville-2.png",
+    primaryImage: "./images/product-ville-1.png",
+    secondaryImage: "./images/product-ville-2.png",
   },
 
   {
@@ -78,8 +78,8 @@ export const DEMO_FEATURED_PRODUCT_CARDS = [
     title: "Speedmaster Chronograph Hand Wind Silver Dial Men's Watch",
     price: "$16,320.00",
     originalPrice: "$20,800.00",
-    primaryImage: "/images/product-speedmaster-1.png",
-    secondaryImage: "/images/product-speedmaster-2.png",
+    primaryImage: "./images/product-speedmaster-1.png",
+    secondaryImage: "./images/product-speedmaster-2.png",
   },
   {
     id: rand(),
@@ -89,8 +89,8 @@ export const DEMO_FEATURED_PRODUCT_CARDS = [
     title: "De Ville Prestige Automatic Chronometer Blue Dial Men's Watch",
     price: "$3,120.00",
     originalPrice: "$7,800.00",
-    primaryImage: "/images/product-ville-1.png",
-    secondaryImage: "/images/product-ville-2.png",
+    primaryImage: "./images/product-ville-1.png",
+    secondaryImage: "./images/product-ville-2.png",
   },
 ];
 
@@ -103,8 +103,8 @@ export const DEMO_BEST_SELLER_PRODUCT_CARDS = [
     title: "Speedmaster Chronograph Hand Wind Silver Dial Men's Watch",
     price: "$16,320.00",
     originalPrice: "$20,800.00",
-    primaryImage: "/images/product-speedmaster-1.png",
-    secondaryImage: "/images/product-speedmaster-2.png",
+    primaryImage: "./images/product-speedmaster-1.png",
+    secondaryImage: "./images/product-speedmaster-2.png",
   },
   {
     id: rand(),
@@ -114,8 +114,8 @@ export const DEMO_BEST_SELLER_PRODUCT_CARDS = [
     title: "De Ville Prestige Automatic Chronometer Blue Dial Men's Watch",
     price: "$3,120.00",
     originalPrice: "$7,800.00",
-    primaryImage: "/images/product-ville-1.png",
-    secondaryImage: "/images/product-ville-2.png",
+    primaryImage: "./images/product-ville-1.png",
+    secondaryImage: "./images/product-ville-2.png",
   },
 
   {
@@ -126,8 +126,8 @@ export const DEMO_BEST_SELLER_PRODUCT_CARDS = [
     title: "Speedmaster Chronograph Hand Wind Silver Dial Men's Watch",
     price: "$16,320.00",
     originalPrice: "$20,800.00",
-    primaryImage: "/images/product-speedmaster-1.png",
-    secondaryImage: "/images/product-speedmaster-2.png",
+    primaryImage: "./images/product-speedmaster-1.png",
+    secondaryImage: "./images/product-speedmaster-2.png",
   },
   {
     id: rand(),
@@ -137,8 +137,8 @@ export const DEMO_BEST_SELLER_PRODUCT_CARDS = [
     title: "De Ville Prestige Automatic Chronometer Blue Dial Men's Watch",
     price: "$3,120.00",
     originalPrice: "$7,800.00",
-    primaryImage: "/images/product-ville-1.png",
-    secondaryImage: "/images/product-ville-2.png",
+    primaryImage: "./images/product-ville-1.png",
+    secondaryImage: "./images/product-ville-2.png",
   },
 
   {
@@ -149,8 +149,8 @@ export const DEMO_BEST_SELLER_PRODUCT_CARDS = [
     title: "Speedmaster Chronograph Hand Wind Silver Dial Men's Watch",
     price: "$16,320.00",
     originalPrice: "$20,800.00",
-    primaryImage: "/images/product-speedmaster-1.png",
-    secondaryImage: "/images/product-speedmaster-2.png",
+    primaryImage: "./images/product-speedmaster-1.png",
+    secondaryImage: "./images/product-speedmaster-2.png",
   },
   {
     id: rand(),
@@ -160,8 +160,8 @@ export const DEMO_BEST_SELLER_PRODUCT_CARDS = [
     title: "De Ville Prestige Automatic Chronometer Blue Dial Men's Watch",
     price: "$3,120.00",
     originalPrice: "$7,800.00",
-    primaryImage: "/images/product-ville-1.png",
-    secondaryImage: "/images/product-ville-2.png",
+    primaryImage: "./images/product-ville-1.png",
+    secondaryImage: "./images/product-ville-2.png",
   },
 
   {
@@ -172,8 +172,8 @@ export const DEMO_BEST_SELLER_PRODUCT_CARDS = [
     title: "Speedmaster Chronograph Hand Wind Silver Dial Men's Watch",
     price: "$16,320.00",
     originalPrice: "$20,800.00",
-    primaryImage: "/images/product-speedmaster-1.png",
-    secondaryImage: "/images/product-speedmaster-2.png",
+    primaryImage: "./images/product-speedmaster-1.png",
+    secondaryImage: "./images/product-speedmaster-2.png",
   },
   {
     id: rand(),
@@ -183,8 +183,8 @@ export const DEMO_BEST_SELLER_PRODUCT_CARDS = [
     title: "De Ville Prestige Automatic Chronometer Blue Dial Men's Watch",
     price: "$3,120.00",
     originalPrice: "$7,800.00",
-    primaryImage: "/images/product-ville-1.png",
-    secondaryImage: "/images/product-ville-2.png",
+    primaryImage: "./images/product-ville-1.png",
+    secondaryImage: "./images/product-ville-2.png",
   },
 ];
 
@@ -197,8 +197,8 @@ export const DEMO_RECOMMENDATION_PRODUCT_CARDS = [
     title: "Speedmaster Chronograph Hand Wind Silver Dial Men's Watch",
     price: "$16,320.00",
     originalPrice: "$20,800.00",
-    primaryImage: "/images/product-speedmaster-1.png",
-    secondaryImage: "/images/product-speedmaster-2.png",
+    primaryImage: "./images/product-speedmaster-1.png",
+    secondaryImage: "./images/product-speedmaster-2.png",
   },
   {
     id: rand(),
@@ -208,8 +208,8 @@ export const DEMO_RECOMMENDATION_PRODUCT_CARDS = [
     title: "De Ville Prestige Automatic Chronometer Blue Dial Men's Watch",
     price: "$3,120.00",
     originalPrice: "$7,800.00",
-    primaryImage: "/images/product-ville-1.png",
-    secondaryImage: "/images/product-ville-2.png",
+    primaryImage: "./images/product-ville-1.png",
+    secondaryImage: "./images/product-ville-2.png",
   },
 
   {
@@ -220,8 +220,8 @@ export const DEMO_RECOMMENDATION_PRODUCT_CARDS = [
     title: "Speedmaster Chronograph Hand Wind Silver Dial Men's Watch",
     price: "$16,320.00",
     originalPrice: "$20,800.00",
-    primaryImage: "/images/product-speedmaster-1.png",
-    secondaryImage: "/images/product-speedmaster-2.png",
+    primaryImage: "./images/product-speedmaster-1.png",
+    secondaryImage: "./images/product-speedmaster-2.png",
   },
   {
     id: rand(),
@@ -231,8 +231,8 @@ export const DEMO_RECOMMENDATION_PRODUCT_CARDS = [
     title: "De Ville Prestige Automatic Chronometer Blue Dial Men's Watch",
     price: "$3,120.00",
     originalPrice: "$7,800.00",
-    primaryImage: "/images/product-ville-1.png",
-    secondaryImage: "/images/product-ville-2.png",
+    primaryImage: "./images/product-ville-1.png",
+    secondaryImage: "./images/product-ville-2.png",
   },
 
   {
@@ -243,8 +243,8 @@ export const DEMO_RECOMMENDATION_PRODUCT_CARDS = [
     title: "Speedmaster Chronograph Hand Wind Silver Dial Men's Watch",
     price: "$16,320.00",
     originalPrice: "$20,800.00",
-    primaryImage: "/images/product-speedmaster-1.png",
-    secondaryImage: "/images/product-speedmaster-2.png",
+    primaryImage: "./images/product-speedmaster-1.png",
+    secondaryImage: "./images/product-speedmaster-2.png",
   },
   {
     id: rand(),
@@ -254,8 +254,8 @@ export const DEMO_RECOMMENDATION_PRODUCT_CARDS = [
     title: "De Ville Prestige Automatic Chronometer Blue Dial Men's Watch",
     price: "$3,120.00",
     originalPrice: "$7,800.00",
-    primaryImage: "/images/product-ville-1.png",
-    secondaryImage: "/images/product-ville-2.png",
+    primaryImage: "./images/product-ville-1.png",
+    secondaryImage: "./images/product-ville-2.png",
   },
 
   {
@@ -266,8 +266,8 @@ export const DEMO_RECOMMENDATION_PRODUCT_CARDS = [
     title: "Speedmaster Chronograph Hand Wind Silver Dial Men's Watch",
     price: "$16,320.00",
     originalPrice: "$20,800.00",
-    primaryImage: "/images/product-speedmaster-1.png",
-    secondaryImage: "/images/product-speedmaster-2.png",
+    primaryImage: "./images/product-speedmaster-1.png",
+    secondaryImage: "./images/product-speedmaster-2.png",
   },
   {
     id: rand(),
@@ -277,7 +277,7 @@ export const DEMO_RECOMMENDATION_PRODUCT_CARDS = [
     title: "De Ville Prestige Automatic Chronometer Blue Dial Men's Watch",
     price: "$3,120.00",
     originalPrice: "$7,800.00",
-    primaryImage: "/images/product-ville-1.png",
-    secondaryImage: "/images/product-ville-2.png",
+    primaryImage: "./images/product-ville-1.png",
+    secondaryImage: "./images/product-ville-2.png",
   },
 ];
