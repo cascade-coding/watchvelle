@@ -1,22 +1,10 @@
-import { Routes, Route, Link } from "react-router";
-import Brand from "./components/icons/Brand";
+import { Routes, Route } from "react-router";
 import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
 import SingleProduct from "./pages/SingleProduct";
 import Shop from "./pages/Shop";
 import Cart from "./pages/Cart";
-
-function About() {
-  return <h1 className="text-3xl">ℹ️ About Page</h1>;
-}
-
-function Services() {
-  return <h1>🛠️ Services Page</h1>;
-}
-
-function Contact() {
-  return <h1>📞 Contact Page</h1>;
-}
+import Orders from "./pages/Orders";
 
 function App() {
   return (
@@ -27,9 +15,7 @@ function App() {
           <Route path="/watches" element={<Shop />} />
           <Route path="/watches/:productId" element={<SingleProduct />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/orders" element={<Orders />} />
         </Routes>
       </MainLayout>
     </>
