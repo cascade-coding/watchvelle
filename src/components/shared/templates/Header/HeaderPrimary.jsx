@@ -6,6 +6,7 @@ import NavLinkSecondary from "./NavLinkSecondary";
 import Container from "../../Container";
 import Bars from "../../../icons/Bars";
 import { useCart } from "../../../../store/useCart";
+import { Link } from "react-router";
 
 const HeaderPrimary = () => {
   const cartItemsCount = useCart((state) =>
@@ -53,7 +54,20 @@ const HeaderPrimary = () => {
               </ul>
             </nav>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3.5">
+              <div className="block md:hidden pt-1">
+                <Link to="/cart">
+                  <span className="relative inline-block">
+                    <Cart />
+                    {cartItemsCount > 0 && (
+                      <span className="absolute -top-1.5 -right-1.5 min-w-4.5 h-4.5 px-1 text-[10px] font-bold text-white bg-foreground rounded-full flex items-center justify-center">
+                        {cartItemsCount}
+                      </span>
+                    )}
+                  </span>
+                </Link>
+              </div>
+
               <label
                 htmlFor="sidebar-toggle"
                 id="sidebar-toggle-label"

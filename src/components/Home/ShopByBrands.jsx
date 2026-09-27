@@ -1,8 +1,7 @@
-import React from "react";
 import SectionHeading from "../shared/SectionHeading";
 import Container from "../shared/Container";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import ShopByBrandCard from "../shared/ShopByBrandCard";
@@ -24,8 +23,14 @@ const ShopByBrands = () => {
 
         <div className="pt-6 md:pt-10">
           <Swiper
-            modules={[Pagination]}
+            modules={[Autoplay, Pagination]}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: true,
+            }}
             pagination={{ clickable: true }}
+            loop
             breakpoints={{
               0: { slidesPerView: 1.1, spaceBetween: 16 },
               460: { slidesPerView: 2.1, spaceBetween: 20 },
