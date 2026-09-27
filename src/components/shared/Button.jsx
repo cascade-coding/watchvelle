@@ -14,7 +14,7 @@ const Button = ({
       type={type}
       id={id}
       className={cn(
-        "bg-brand block px-6 h-12 text-sm font-semibold tracking-[0.5px] rounded-md border border-border cursor-pointer",
+        "bg-brand text-white block px-6 h-12 text-sm font-semibold tracking-[0.5px] rounded-md border border-border cursor-pointer",
         className,
       )}
       onClick={onClick}
