@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link, useParams } from "react-router";
 import Tag from "../icons/Tag";
 import Bag from "../icons/Bag";
 import Verified from "../icons/Verified";
@@ -8,13 +8,15 @@ import { useConstants } from "../../store/useConstants";
 import useCartActions from "../../hooks/useCartActions";
 
 const ProductOverviewInfo = () => {
+  const { productId } = useParams();
+
   const product = useConstants((state) => state.DEMO_SINGLE_PRODUCT);
 
   const { addItem, isInCart } = useCartActions();
 
   const handleAddToBag = () => {
     addItem({
-      id: product.id,
+      id: productId,
       to: product.to ?? `/watches/${product.id}`,
       brand: product.item.brand,
       code: product.item.code,
